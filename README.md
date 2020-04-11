@@ -2,6 +2,13 @@
 a simple php function that convert array to tree
 
 
+## Install
+
+```bash
+composer require chastephp/array2tree
+```
+
+
 ## Usage
 
 ```php
