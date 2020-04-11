@@ -1,6 +1,7 @@
 {
   "name": "chastephp/array2tree",
   "description": "a simple php function to convert array to tree",
+  "license": "MIT",
   "keywords": [
     "arraytotree",
     "array2tree"
