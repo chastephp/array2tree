@@ -1,0 +1,19 @@
+{
+  "name": "chastephp/array2tree",
+  "description": "a simple php function to convert array to tree",
+  "keywords": [
+    "arraytotree",
+    "array2tree"
+  ],
+  "autoload": {
+    "files": [
+      "src/array2tree.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "widdy",
+      "email": "kingwide@foxmail.com"
+    }
+  ]
+}
