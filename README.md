@@ -22,3 +22,35 @@ $arr = [
 var_dump(array2tree($arr, 'id', 'parent_id', 'children')); 
 
 ```
+
+```
+array (
+  0 =>
+  array (
+    'id' => 1,
+    'name' => '11',
+    'parent_id' => 0,
+    'children' =>
+    array (
+      0 =>
+      array (
+        'id' => 2,
+        'name' => '22',
+        'parent_id' => 1,
+        'children' =>
+        array (
+          0 =>
+          array (
+            'id' => 3,
+            'name' => '33',
+            'parent_id' => 2,
+            'children' =>
+            array (
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+)
+```
