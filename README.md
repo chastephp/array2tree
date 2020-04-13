@@ -19,47 +19,6 @@ $arr = [
     ['id' => 4, 'name' => '44', 'parent_id' => 2],
 ];
 
-var_dump(array2tree($arr, 'id', 'parent_id', 'children'));
+var_dump(array2tree($arr, 'id', 'parent_id', 'children')); 
 
-/**
-array(1) {
-  [0]=>
-  array(4) {
-    ["id"]=>
-    int(1)
-    ["name"]=>
-    string(2) "11"
-    ["parent_id"]=>
-    int(0)
-    ["children"]=>
-    array(1) {
-      [0]=>
-      array(4) {
-        ["id"]=>
-        int(2)
-        ["name"]=>
-        string(2) "22"
-        ["parent_id"]=>
-        int(1)
-        ["children"]=>
-        array(1) {
-          [0]=>
-          array(4) {
-            ["id"]=>
-            int(3)
-            ["name"]=>
-            string(2) "33"
-            ["parent_id"]=>
-            int(2)
-            ["children"]=>
-            array(0) {
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-**/
 ```
