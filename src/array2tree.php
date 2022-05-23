@@ -21,10 +21,12 @@ function array2tree($array, $keyName = 'id', $parentKeyName = 'parent_id', $chil
         $item[$childrenKeyName] = [];
         $ret[$item[$keyName]] = &$item;
     }
+    unset($item);
 
     foreach ($array as &$item) {
         $ret[$item[$parentKeyName]][$childrenKeyName][] = &$item;
     }
+    unset($item);
 
     return $ret[0][$childrenKeyName];
 }
